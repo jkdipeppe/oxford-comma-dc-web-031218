@@ -7,6 +7,7 @@ def oxford_comma(array)
     arr_final = Array.new
     arr_final = array
     arr_final.pop
+    final_string = String.new
     arr_final.join(", ")
     last_string = "and #{array[-1]}"
     arr_final.push(last_string)
