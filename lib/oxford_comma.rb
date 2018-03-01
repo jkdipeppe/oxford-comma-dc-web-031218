@@ -6,6 +6,8 @@ def oxford_comma(array)
   else
     new arr_final = Array.new
     arr_final = array.pop
+    arr_final.join(", ")
+    last_string = "and #{array[-1]}"
   end
 
 end
