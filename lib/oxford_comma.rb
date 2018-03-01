@@ -10,7 +10,7 @@ def oxford_comma(array)
     arr_final.pop
     final_string = String.new
     final_string = arr_final.join(", ")
-    
+
     arr_final.push(last_string)
   end
 
