@@ -11,7 +11,7 @@ def oxford_comma(array)
     final_string = String.new
     final_string = arr_final.join(", ")
 
-    arr_final.push(last_string)
+    final_string += last_string
   end
 
 end
